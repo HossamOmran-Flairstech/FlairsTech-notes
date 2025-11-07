@@ -1,14 +1,58 @@
-Documentation file for homepage 
+# Documentation file for homepage 
+
+### Page REST API 
+- https://flairstech.flairsrealtor.com/wp-json/wp/v2/pages?slug=home&acf_format=standard
+- if you need authentication contact me to share credintals to test this in postman
+
+### Rank math (SEO) 
+- https://flairstech.flairsrealtor.com/wp-json/rankmath/v1/getHead?url=https://flairstech.flairsrealtor.com/home
+- This to summarize what excatly will be added per page in `<head>`
 
 
-page REST API 
-https://flairstech.flairsrealtor.com/wp-json/wp/v2/pages?slug=home&acf_format=standard
+JSON 
+```
+{
+  "success": true,
+  "head": "\u003Ctitle\u003ETechnology-Driven Managed Services Provider | FlairsTech\u003C/title\u003E\n\u003Cmeta name=\"description\" content=\"FlairsTech is an international technology-driven managed services provider for innovative managed software and support services.\"/\u003E\n\u003Cmeta name=\"robots\" content=\"follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large\"/\u003E\n\u003Clink rel=\"canonical\" href=\"https://flairstech.flairsrealtor.com\" /\u003E\n\u003Cmeta property=\"og:locale\" content=\"en_US\" /\u003E\n\u003Cmeta property=\"og:type\" content=\"website\" /\u003E\n\u003Cmeta property=\"og:title\" content=\"Technology-Driven Managed Services Provider | FlairsTech\" /\u003E\n\u003Cmeta property=\"og:description\" content=\"FlairsTech is an international technology-driven managed services provider for innovative managed software and support services.\" /\u003E\n\u003Cmeta property=\"og:url\" content=\"https://flairstech.flairsrealtor.com\" /\u003E\n\u003Cmeta property=\"og:site_name\" content=\"FlairsTech\" /\u003E\n\u003Cmeta property=\"og:updated_time\" content=\"2025-11-06T22:31:52+00:00\" /\u003E\n\u003Cmeta property=\"og:image\" content=\"https://flairstech.flairsrealtor.com/app/uploads/2024/06/logo-01-01.png\" /\u003E\n\u003Cmeta property=\"og:image:secure_url\" content=\"https://flairstech.flairsrealtor.com/app/uploads/2024/06/logo-01-01.png\" /\u003E\n\u003Cmeta property=\"og:image:width\" content=\"1098\" /\u003E\n\u003Cmeta property=\"og:image:height\" content=\"657\" /\u003E\n\u003Cmeta property=\"og:image:alt\" content=\"managed services\" /\u003E\n\u003Cmeta property=\"og:image:type\" content=\"image/png\" /\u003E\n\u003Cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003E\n\u003Cmeta name=\"twitter:title\" content=\"Technology-Driven Managed Services Provider | FlairsTech\" /\u003E\n\u003Cmeta name=\"twitter:description\" content=\"FlairsTech is an international technology-driven managed services provider for innovative managed software and support services.\" /\u003E\n\u003Cmeta name=\"twitter:image\" content=\"https://flairstech.flairsrealtor.com/app/uploads/2024/06/logo-01-01.png\" /\u003E\n\u003Cmeta name=\"twitter:label1\" content=\"Written by\" /\u003E\n\u003Cmeta name=\"twitter:data1\" content=\"Hossam Omran\" /\u003E\n\u003Cmeta name=\"twitter:label2\" content=\"Time to read\" /\u003E\n\u003Cmeta name=\"twitter:data2\" content=\"Less than a minute\" /\u003E\n\u003Cscript type=\"application/ld+json\" class=\"rank-math-schema-pro\"\u003E{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":[\"Corporation\",\"Organization\"],\"@id\":\"https://flairstech.flairsrealtor.com/#organization\",\"name\":\"FlairsTech, Inc.\",\"url\":\"https://flairstech.flairsrealtor.com/\",\"sameAs\":[\"https://www.facebook.com/FlairsTech\",\"https://www.instagram.com/flairstech/\",\"https://www.linkedin.com/company/flairstech\",\"https://www.youtube.com/channel/UCmogOfkfQTD3kKB4UDlyUNA\",\"https://www.tiktok.com/@flairstech\"],\"email\":\"info@flairstech.com\",\"logo\":{\"@type\":\"ImageObject\",\"@id\":\"https://flairstech.flairsrealtor.com/#logo\",\"url\":\"https://flairstech.flairsrealtor.com/app/uploads/2021/07/FlairsTech-Logo.png\",\"contentUrl\":\"https://flairstech.flairsrealtor.com/app/uploads/2021/07/FlairsTech-Logo.png\",\"caption\":\"FlairsTech\",\"inLanguage\":\"en-US\",\"width\":\"228\",\"height\":\"40\"},\"description\":\"FlairsTech is an IT and Software services company operating from 5 offices on three 3 continents, serving more than 70 global corporations.\"},{\"@type\":\"WebSite\",\"@id\":\"https://flairstech.flairsrealtor.com/#website\",\"url\":\"https://flairstech.flairsrealtor.com\",\"name\":\"FlairsTech\",\"publisher\":{\"@id\":\"https://flairstech.flairsrealtor.com/#organization\"},\"inLanguage\":\"en-US\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://flairstech.flairsrealtor.com/?s={search_term_string}\",\"query-input\":\"required name=search_term_string\"}},{\"@type\":\"ImageObject\",\"@id\":\"https://flairstech.flairsrealtor.com/app/uploads/2024/06/logo-01-01.png\",\"url\":\"https://flairstech.flairsrealtor.com/app/uploads/2024/06/logo-01-01.png\",\"width\":\"1098\",\"height\":\"657\",\"inLanguage\":\"en-US\"},{\"@type\":\"WebPage\",\"@id\":\"https://flairstech.flairsrealtor.com#webpage\",\"url\":\"https://flairstech.flairsrealtor.com\",\"name\":\"Technology-Driven Managed Services Provider | FlairsTech\",\"datePublished\":\"2024-12-09T12:13:52+00:00\",\"dateModified\":\"2025-11-06T22:31:52+00:00\",\"about\":{\"@id\":\"https://flairstech.flairsrealtor.com/#organization\"},\"isPartOf\":{\"@id\":\"https://flairstech.flairsrealtor.com/#website\"},\"primaryImageOfPage\":{\"@id\":\"https://flairstech.flairsrealtor.com/app/uploads/2024/06/logo-01-01.png\"},\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https://www.google.com/search?kgmid=/g/11c73p4pmp\",\"name\":\"FlairsTech\",\"url\":\"https://flairstech.flairsrealtor.com/\",\"logo\":\"https://flairstech.flairsrealtor.com/app/uploads/2024/06/cropped-flaistech-square-logo.png\",\"description\":\"Since its establishment on the foundations of Innovation, Talent, and Excellence, FlairsTech has grown rapidly and steadily into the Technology-driven Managed Services Provider (MSP) it is today. With over 1000 carefully selected talents across our five offices, a global audience of over 70 partners rely daily on our services for Software Development, Analytics, Innovative Digital Solutions, Business Operations, Customer Experience and Support.\",\"sameAs\":[\"https://flairstech.flairsrealtor.com/\",\"https://www.linkedin.com/company/flairstech\",\"https://www.facebook.com/FlairsTech/\",\"https://www.instagram.com/flairstech/\",\"https://www.youtube.com/@flairstech\",\"https://clutch.co/profile/flairstech\",\"https://www.g2.com/sellers/flairstech\",\"https://www.goodfirms.co/company/flair-communication\"],\"founder\":[{\"@type\":\"Person\",\"@id\":\"https://www.google.com/search?kgmid=/g/11c73l2g_8\",\"name\":\"Rami Fahim\"}],\"foundingDate\":\"2018\",\"areaServed\":\"North America\",\"address\":[{\"@type\":\"PostalAddress\",\"streetAddress\":\"Saint Laurent, QC\",\"addressLocality\":\"H4S 2C1\",\"addressRegion\":\"Canada\",\"postalCode\":\"H4S 2C1\",\"addressCountry\":\"CA\"},{\"@type\":\"PostalAddress\",\"streetAddress\":\"Konstruktorska 11\",\"addressLocality\":\"Warsaw\",\"addressRegion\":\"Poland\",\"postalCode\":\"02-673\",\"addressCountry\":\"PL\"},{\"@type\":\"PostalAddress\",\"streetAddress\":\"537 Cornish El Nile St\",\"addressLocality\":\"Maadi\",\"postalCode\":\"11728\",\"addressCountry\":\"EG\"}],\"contactPoint\":{\"@type\":\"ContactPoint\",\"telephone\":\"+1-877-296-0878 / +1-514-535-0156\",\"contactType\":\"customer service\"}}]}\u003C/script\u003E\n"
+}
+```
+### 📌 General Notes
 
-Rank math 
-https://flairstech.flairsrealtor.com/wp-json/rankmath/v1/getHead?url=https://flairstech.flairsrealtor.com/home
+- All images **must support responsive behavior** using `srcset` and `sizes`.
+- Always use **lazy loading** and **image compression** where possible to improve performance.
+- Our primary goal is to **maximize performance** by:
+  - Delaying unnecessary JavaScript execution.
+  - Compressing CSS files.
+  - Removing unused CSS.
 
-#Homepage Components
-## 🧩 Component 2: `homepage_hero_with_animation_and_service_cards`
+- Ensure proper **heading hierarchy** across all components (`h1`, `h2`, `h3`, etc.).
+- **Always define `height` and `width`** attributes for all images and major layout containers to **prevent layout shifts**.
+
+- The ultimate objective is a **pixel-perfect website** with:
+  - **95%+ performance score** on both **mobile and desktop**.
+  - **Passing Google Core Web Vitals**.
+  - **Minimal CLS (Cumulative Layout Shift)**.
+
+---
+
+### 🔍 SEO Requirements
+
+- The page must deliver **fully rendered semantic HTML** on **initial load** (server-side rendered), without relying on client-side JavaScript to populate content.
+- Use **semantic HTML5 elements** (`<header>`, `<section>`, `<article>`, `<footer>`, etc.) to ensure structural clarity for search engines.
+- Ensure that **meta tags**, **Open Graph (og:)**, and **Twitter Card metadata** are present and follow the same structure as the current production site [flairstech.com](https://flairstech.com).
+- Use descriptive and accessible **alt text** for all images.
+- Set appropriate **canonical URLs**, if applicable.
+- Avoid duplicate content or duplicated meta information across pages.
+
+---
+
+### 🧠 Collaboration
+
+> If anything is unclear, or there is a technical or design decision to be made, please **coordinate with me directly** before implementation to avoid misalignment.
+
+
+## Homepage Components
+## 🧩 Component 1: `homepage_hero_with_animation_and_service_cards`
 
 ### 📐 Fields:
 | Field Name                         | Type       | Description                                  |
@@ -36,26 +80,60 @@ Each item in `service_cards_loop` includes:
 | card_heading       | `string` | Title of the card                        |
 | card_short_description | `string` | Description paragraph                 |
 | card_cta           | `object` | Optional CTA object                      |
-
 ### Edge Cases & Content Rules
-All fields are OPTONAL unless specified otherwise.
-Heading Hierarchy:
-Hero section main heading → <h1>
-Example:
+
+- All fields are **optional** unless specified otherwise.
+
+---
+
+#### Heading Hierarchy
+
+- Hero section main heading → `<h1>`
+
+**Example:**
+
+````html
 <h1>Scale Smart Your <span>Teams.</span><span>Systems.</span><span>Success.</span></h1>
+````
 
-Paragraphs:
-Always wrapped in <p> tags.
+---
 
-Free Text Logic:
-If user sends <strong>Bold Text</strong>, render as Bold Text (without printing HTML).
+#### Paragraphs
 
-Colored Text:
-Wrap text in <span class="gradient-text">Colored Text</span>.
-Example:
+- Always wrapped in `<p>` tags.
+
+**Example:**
+
+````html
+<p>This is a paragraph with standard content.</p>
+````
+
+---
+
+#### Free Text Logic
+
+- If user sends:
+
+````html
+<strong>Bold Text</strong>
+````
+
+- Render as:
+
+**Bold Text** (without printing the actual `<strong>` HTML tag).
+
+---
+
+#### Colored Text
+
+- Wrap text in:  
+  `<span class="gradient-text">Colored Text</span>`
+
+**Example:**
+
+````html
 <h2>Strengthen your reach, <span class="gradient-text">enhance your ROI</span></h2>
-
-
+````
 
 ### 🔍 Example JSON (from real API):
 ```json
@@ -529,17 +607,24 @@ Each item in `map_elements` includes:
 
 ---
 ### Edge Cases & Content Rules
-All fields are OPTONAL unless specified otherwise.
-Heading Hierarchy:
-Any non hero section heading → <h2>
-Example:
-<h2>Global Services <span class="gradiant-text">Local feel</span></h2>
-Paragraphs:
-Always wrapped in <p> tags.
 
-Free Text Logic:
-If user sends <strong>Bold Text</strong>, render as Bold Text (without printing HTML).
+- All fields are **OPTIONAL** unless specified otherwise.
 
+#### Heading Hierarchy
+- Any non-hero section heading should be rendered using `<h2>`.
+- Example:
+  ```html
+  <h2>Global Services <span class="gradiant-text">Local feel</span></h2>
+  ```
+
+#### Paragraphs
+- All text content (subheadings, descriptions, etc.) **must be wrapped in `<p>` tags**.
+
+#### Free Text Logic
+- If the content contains `<strong>Bold Text</strong>`, render it as plain bold text **without printing the HTML tags**.
+  - Example:
+    Input: `<strong>Bold Text</strong>`  
+    Output (HTML): `<p><strong>Bold Text</strong></p>`
 
 ### 🧩 Example JSON (as returned by API)
 ```json
@@ -919,15 +1004,18 @@ If user sends <strong>Bold Text</strong>, render as Bold Text (without printing 
 ---
 ### Edge Cases & Content Rules
 
-SAME AS previous component main heading h2 
-subheadings and any text will be in p tag
+- All headings (except hero section) should be rendered as `<h2>`.
+- Subheadings and any text should be wrapped in `<p>` tags.
 
 #### Videos
-1-we will have a placeholder image that will load at first to minimize network load 
-2-we will get the background video url from our server like this "https://flairstech.flairsrealtor.com/app/uploads/2025/11/file_example_MP4_480_1_5MG.mp4"
-3-clicking the CTA for the video will show a popup and play the video using embeded youtube video content editors will  you will recieve only the video code from the api and you have to make it to work for example 
 
-script example 
+1. A **placeholder image** must be loaded first to minimize network load.
+2. The **background video URL** will be provided from our server, for example:  
+   `https://flairstech.flairsrealtor.com/app/uploads/2025/11/file_example_MP4_480_1_5MG.mp4`
+3. Clicking the **Watch Video CTA** should open a popup and autoplay the video using an embedded YouTube player. The API will only provide the **YouTube video code**, which must be dynamically rendered in the iframe.
+
+##### Example Script
+```html
 <script>
 function playVideo(element, videoCode) {
     const iframe = document.createElement('iframe');
@@ -938,7 +1026,9 @@ function playVideo(element, videoCode) {
     element.appendChild(iframe);
 }
 </script>
-or whatever will work with next.js
+```
+
+Or use whatever method works best with your **Next.js** frontend.
 
 ### 🧱 Right Side Cards Structure
 Each item in `right_side_cards` includes:
@@ -1448,15 +1538,17 @@ Each item in `card_repeater` includes:
 
 ### ⚙️ Frontend Notes
 
-- Each card contains both left-side region badge and right-side logo you should also know that right side logo can be empty that means the cards should show corretly if we didn't add a logo for our clients.
-- Support responsive image rendering with appropriate `alt`, `srcset`, and fallback handling
-- All HTML text must be rendered safely
-- Empty `title` in CTA can be skipped or fallback to “Read More”
-- Main section title is h2
-- Each card title is H3
-- any other normal text is p tag
+- Each card contains both left-side region badge and right-side logo.  
+  You should also know that the right-side logo **can be empty**, which means the cards should still display correctly if we don't add a logo for our clients.
+- Support responsive image rendering with appropriate `alt`, `srcset`, and fallback handling.
+- All HTML text must be **rendered safely** (i.e., avoid unsafe HTML injection).
+- If `title` in CTA is empty, **skip it or fallback to “Read More”**.
+- **Main section title** must use `<h2>`.
+- **Each card title** must use `<h3>`.
+- Any other normal text must use `<p>` tags.
 
 ---
+
 
 ### 🧩 Example JSON (as returned by API)
 ```json
@@ -2757,8 +2849,8 @@ Each item in `industry_repeater` includes:
 
 - HTML in `free text` supports `<p>`, `<strong>`, and `<em>`.
 - Headings are wrapped in `<h2>`, free text in `<p>`.
-- we will only have h2 which is the headingin this section.
-- right side heading is p tag
+- We will **only use `<h2>`** for the main heading in this section.
+- The **right-side heading** should be rendered as a `<p>` tag.
 
 ```json
   {
@@ -3424,8 +3516,10 @@ Each item in `industry_repeater` includes:
 ## 🎯 `cta_with_bg_purple_and_white_text`  
 This component displays a call-to-action (CTA) section with a **purple background** and **white text**, used to highlight strategic actions like booking consultations. It includes a badge icon, headline, descriptive text, and a CTA button.
 
-Heading is H2 and and you have to handle the free text .
-the background will be static .
+- Heading is rendered as `<h2>`.
+- The descriptive text (`free_text`) must be handled and safely rendered inside a `<p>` tag.
+- The background will be static and styled via CSS.
+
 ### 📐 Fields:
 | Field Name       | Type     | Description                                                                 |
 |------------------|----------|-----------------------------------------------------------------------------|
@@ -3528,8 +3622,8 @@ Each item in `repeated_cards` includes:
 - Images must support responsive behavior (`srcset`, `sizes`).
 - Consider lazy-loading images for performance.
 - Use `<section>` with semantic tags like `<article>` per card.
-- Card Titles are h3 
-- Section heading is H2
+- Card titles are rendered using `<h3>`.
+- Section heading is rendered using `<h2>`.
 
 ---
 
