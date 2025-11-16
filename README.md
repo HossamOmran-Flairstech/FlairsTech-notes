@@ -4172,7 +4172,7 @@ Display a frequently asked questions (FAQ) section with a main heading, subheadi
 ### Page REST API
 - Rest Api should always be fetched from the service slug. like this https://cms.flairstech.flairsrealtor.com/wp-json/wp/v2/service?slug={slug}&acf_format=standard
 - https://cms.flairstech.flairsrealtor.com/wp-json/wp/v2/service?slug=application-maintenance-and-support-services&acf_format=standard
--Browser URL should be without the /service slug name like this -> https://flairstech.com/services/application-maintenance-and-support-services/
+-Browser URL should be without the /service slug name like this -> https://flairstech.com/application-maintenance-and-support-services/ , We should also handle any conflicts will happen if the same slug name used in the normal pages
 
 ## 1. Hero Section With Bg Image
 
